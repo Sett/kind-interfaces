@@ -1,0 +1,22 @@
+{
+  "name": "funcraft/kind-interfaces",
+  "description": "Funcraft Kind interfaces only",
+  "type": "library",
+  "keywords": ["kind", "funcraft"],
+  "authors":[
+    {
+      "name": "Funcraft",
+      "email": "what4me@yandex.ru",
+      "homepage": "http://funcraft.ru",
+      "role": "developer"
+    }
+  ],
+  "require":{
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr4": {
+      "funcraft\\kind\\": ""
+    }
+  }
+}
